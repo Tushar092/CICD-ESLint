@@ -2,7 +2,7 @@ name : Run ESLint
 on : push
 jobs : 
       eslint : 
-          runs-on : ubuntu latest
+          runs-on : ubuntu-latest
           steps : 
                 - name : Install Node.js
                 - uses : actions/setup-node@v3
