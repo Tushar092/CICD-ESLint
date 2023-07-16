@@ -1,0 +1,15 @@
+name : Run ESLint
+on : push
+jobs : 
+      eslint : 
+          runs-on : ubuntu latest
+          steps : 
+                - name : Install Node.js
+                - uses : actions/setup-node@v3
+                - with : 
+                    - node-version : '14.x'
+                -name : Install dependencies
+                    - run : npm install
+                -name : Run Eslint
+                    - run : npx eslint index.js
+                    - run : node --version
