@@ -4,8 +4,9 @@ jobs :
       eslint : 
           runs-on : ubuntu-latest
           steps : 
-              - name : Install Node.js
-              - uses : actions/setup-node@v3      
+
+              
+              - uses : actions/setup-node@v2    
               - with : 
                   - node-version : '14.x'      
               -name : Install dependencies
