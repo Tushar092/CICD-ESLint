@@ -1,2 +1,2 @@
-const str = 'index'
-console.log(str)
+const str = "index";
+console.log(str);
