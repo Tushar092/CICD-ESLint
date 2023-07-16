@@ -1,4 +1,3 @@
-name : Run ESLint
 on : push
 jobs :
     eslint :
