@@ -1,8 +1,8 @@
 name : Run ESLint
 on : push
 jobs :
-      eslint :
-          runs-on : ubuntu-latest
+    eslint :
+        runs-on : ubuntu-latest
           steps :
               - uses : actions/setup-node@v2    
               - with : 
